@@ -15,12 +15,12 @@ To remotely connect to the server, I used the command ssh followed by my CSE 15L
 
 After successfully connecting to the remote computer, I experimented with some commands to get the hang of using the terminal as well as understanding how these commands work and what outputs they give. I used the the ls command to list all the files: 
 
-![Trying Some Commands]( https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.31.27%20PM.png )
+![Trying Some Commands](/main/Screenshot%202022-03-31%20at%204.31.27%20PM.png)
 
 ### Moving files with scp
 
 I created a java file called WhereAmI.java which tells me the name of the user, operating system, directory, etc then using the command `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:` I move the files to the remote server which can be seen when the `ls` command is used as can be seen in the screenshot below.
-![Moving Files with scp]( https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.41.24%20PM.png )
+![Moving Files with scp](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.41.24%20PM.png)
 
 ### Setting an SSH key
 
