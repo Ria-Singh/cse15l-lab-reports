@@ -24,6 +24,16 @@ After successfully connecting to the remote computer, I experimented with some c
 I created a java file called WhereAmI.java which tells me the name of the user, operating system, directory, etc then using the command `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:` I move the files to the remote server which can be seen when the `ls` command is used as can be seen in the screenshot below.
 ![](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.41.24%20PM.png)
 
+### Setting an SSH key
+
+An ssh key is then set up to make logging into the remote server faster and less cumbersome. This is done by using the `ssh-keygen` command to create a public and private key which are then saved and used to log in to the server. The process is seen in the screenshot below 
+![](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%205.42.40%20PM.png)
+
+### Optimizing remote running
+
+The last step was to figure out how to run commands even faster. This can be done by using ssh followed by my account name and the the command I want to run in quotes. The one command does it all since there a ssh key set up already. It can be seen in the screenshot below
+![](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%205.42.50%20PM.png)
+
 
 
 
