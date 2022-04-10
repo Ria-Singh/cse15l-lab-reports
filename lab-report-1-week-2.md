@@ -5,7 +5,7 @@
 
 I installed VSCode from the internet previously by following the instructions for MAC OS on the website. The following screenshot is of my installed VSCode:
 
-![](Screenshot 2022-03-31 at 4.15.12 PM.png)
+![](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.15.12%20PM.png)
 
 ### Remotely Connecting
 
