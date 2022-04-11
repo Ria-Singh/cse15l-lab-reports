@@ -12,25 +12,25 @@ __Done normally__
 To remotely connect to the server, I used the command ssh followed by my CSE 15L account. This lead to the terminal prompting for some answers such as whether to connect to continue connecting followed my my account password. The following screenshot demonstrates the terminal prompts: 
 __Done using link and image__
 
-[![/main/Screenshot%202022-03-31%20at%204.24.14%20PM.png]](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.24.14%20PM.png)
+![](/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.24.14%20PM.png)
 
 ### Trying some commands
 
 After successfully connecting to the remote computer, I experimented with some commands to get the hang of using the terminal as well as understanding how these commands work and what outputs they give. I used the the ls command to list all the files: 
 
-![Trying Some Commands](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.31.27%20PM.png)
+![](/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.31.27%20PM.png)
 
 ### Moving files with scp
 
 I created a java file called WhereAmI.java which tells me the name of the user, operating system, directory, etc then using the command `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:` I move the files to the remote server which can be seen when the `ls` command is used as can be seen in the screenshot below.
 
-![ ](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%204.41.24%20PM.png)
+![](/blob/main/Screenshot%202022-03-31%20at%204.41.24%20PM.png)
 
 ### Setting an SSH key
 
 An ssh key is then set up to make logging into the remote server faster and less cumbersome. This is done by using the `ssh-keygen` command to create a public and private key which are then saved and used to log in to the server. The process is seen in the screenshot below 
 
-![ ](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-03-31%20at%205.42.40%20PM.png)
+![](/main/Screenshot%202022-03-31%20at%205.42.40%20PM.png)
 
 ### Optimizing remote running
 
