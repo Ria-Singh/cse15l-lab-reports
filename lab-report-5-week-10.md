@@ -21,6 +21,6 @@ My markdown parser gets this right while the given one gets its wrong.
 My markdown parser recognizes that the given output should not contain anything as the text within the square brackets contains more square brackets and hence messes up the syntax. The given markdown parser is unable to do so and hence gives the url as the output.
 
 The bug may lie here
-![](
+![](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-06-06%20at%2012.54.51%20AM.png)
 
 
