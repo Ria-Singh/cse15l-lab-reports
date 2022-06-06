@@ -13,6 +13,9 @@ the below screenshot shows the outputs for both my own repository and the given 
 My markdownparser gets the output wrong while the given markdown parser gets it right.
 My markdown parser fails to recognize the url as correct and gives an empty output while the given markdown parser is able to recognize the url correctly
 
+The conditional statments as highlighted might need some refining
+![](https://github.com/Ria-Singh/cse15l-lab-reports/blob/main/Screenshot%202022-06-06%20at%2012.51.59%20AM.png)
+
 # File 2 - 511.md
 My markdown parser gets this right while the given one gets its wrong.
 My markdown parser recognizes that the given output should not contain anything as the text within the square brackets contains more square brackets and hence messes up the syntax. The given markdown parser is unable to do so and hence gives the url as the output.
